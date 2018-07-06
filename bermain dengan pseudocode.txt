@@ -1,0 +1,78 @@
+Algoritma Newton Second Law
+1)TENTUKAN NILAI MASSA SEBAGAI m=600
+2)TENTUKAN NILAI PERCEPATAN SEBAGAI a=2
+3)HITUNG NILAI RESULTAN GAYA DENGAN RUMUS F=m.a
+
+Pseudocode Newton Second Law
+STORE "m" with 600
+STORE "a" with 2
+CALCULATE F=m*a
+DISPLAY F
+
+Algoritma Tahun Kabisat
+1)Masukkan Nilai Tahun Dalam Variabel tahun
+2)Periksa sisa bagi variabel tahun dengan 4,100,dan 400 
+3)Jika sisa bagi tahun dan 4 adalah 0 , dan sisa bagi tahun dan 100 bukan 0
+maka nilai dalam variabel tahun adalah tahun kabisat
+4)Sebaliknya jika sisa bagi tahun dengan 4,100 dan 400 adalah 0 , 
+maka nilai dalam variabel tahun adalah tahun kabisat
+5)Sebaliknya nilai dalam variabel tahun bukan tahun kabisat
+  
+
+Pseudocode Tahun Kabisat
+
+STORE "tahun" with any number
+
+CALCULATE tahun mod 4 , tahun mod 100 and tahun mod 400
+STORE "r1" to the result of tahun mod 4
+STORE "r2" to the result of tahun mod 100
+STORE "r3" to the result of tahun mod 400 
+
+IF "r1" equals to 0 and "r2" not equals to 0
+	DISPLAY "TAHUN KABISAT"
+ELSE IF "r1,r2,r3" equals to 0
+	DISPLAY "TAHUN KABISAT"
+ELSE
+	DISPLAY "BUKAN TAHUN KABISAT"
+END IF
+
+
+Algoritma Laundry Day
+1)MASUKKAN NILAI JUMLAH BAJU YANG AKAN DICUCI FOXIE KE DALAM VARIABEL cuci
+2)SET NILAI BAJU YANG DIMASUKKAN FOXIE KE DALAM VARIABEL masuk=0 
+3)FOXIE MEMASUKKAN BAJUNYA
+4)TAMBAHKAN NILAI VARIABEL masuk SEBANYAK 1
+5)CEK APAKAH NILAI BAJU YANG DIMASUKKAN FOXIE SAMA DENGAN VARIABEL cuci
+6)JIKA SAMA MAKA LAKUKAN PENCUCIAN BAJU , JIKA TIDAK SAMA KEMBALI KE LANGKAH 3
+
+Pseudocode Laundry Day
+STORE "cuci" with 20
+STORE masuk=0
+WHILE masuk<=cuci
+	ADD "masuk" by 1
+DISPLAY "PENCUCIAN DILAKUKAN"
+
+Algoritma Periksa Kuku
+1)MASUKKAN NILAI JUMLAH MURID DALAM VARIABEL murid SEJUMLAH 40
+2)MASUKKAN JUMLAH MURID YANG TELAH DIPERIKSA DALAM VARIABEL periksa=0 
+3)GURU MEMERIKSA MURIDNYA, periksa=periksa+1
+4)CEK APAKAH KUKU MURID PANJANG , JIKA IYA KE LANGKAH 5 , JIKA TIDAK KE LANGKAH 6
+5)MENGHUKUM MURID
+6)MEMUJI MURID
+7)CEK APAKAH SEMUA MURID SUDAH DIPERIKSA , JIKA TIDAK KE LANGKAH 3, JIKA IYA KE LANGKAH 8
+8)PEMERIKSAAN SELESAI
+
+
+Pseudocode Periksa Kuku
+STORE "murid" with 40
+STORE periksa=0
+WHILE periksa<=cuci
+	ADD "periksa" by 1
+	IF "kuku murid==panjang"
+		DISPLAY "Hukum Murid"
+	IF "kuku murid==pendek"
+		DISPLAY "Puji Murid"
+	END IF
+END WHILE
+
+DISPLAY "PEMERIKSAAN SELESAI"
